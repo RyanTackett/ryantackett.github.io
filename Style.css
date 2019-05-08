@@ -1,0 +1,475 @@
+/*  Setting Defaults  */
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #222222;
+    color: white;
+    margin: 0px;
+    height: 600px;
+    width: 100%;
+}
+
+/* Header for Profile "Ryan Tackett" */
+.mainHeader {
+    background-color: #222222;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-top: 10px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Navigation Tabs and Hover Section */
+#myNav {
+    position: fixed;
+    background-color: transparent;
+    margin-top: 50px;
+    height: 250px;
+    width: 15%;
+}
+
+#navItem1, #navItem2, #navItem3, #navItem4 {
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #222222;
+    color: aquamarine;
+    display: flex;
+    height: 30px;
+    width: 150px;
+    margin-left: 25px;
+    margin-top: 20px;
+    padding-left: 5px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    border-radius: 5px;
+}
+
+#navItem1:hover, #navItem2:hover, #navItem3:hover, #navItem4:hover {
+    background-color: aquamarine;
+    color: black;
+    height: 30;
+    width: 150px;
+    border-radius: 5px;
+    text-shadow: none;
+}
+
+/*****************************/
+/* Start of About Me Section */
+.pageOneContainer {
+    height: 100%;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#aboutMeHeader {
+    background-color: #222222;
+    color: aquamarine;
+    float: right;
+    height: auto;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 100px;
+    padding-right: 15px;
+    text-align: right;
+    text-shadow: .5px .5px white;
+    font-size: 40px;
+    border-radius: 5px;
+}
+
+#aboutMePara {
+    background-color: transparent;
+    color: #222222;
+    line-height: 50px;
+    float: right;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: 60px;
+    height: auto;
+    width: 70%;
+    text-align: left;
+    font-size: 28px;
+}
+
+/*****************************/
+/* Start of Projects Section */
+.pageTwoContainer {
+    height: 100%;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #222222;
+}
+
+#projectsHeader {
+    background-color: aquamarine;
+    color: white;
+    float: right;
+    height: auto;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 100px;
+    padding-right: 15px;
+    text-align: right;
+    text-shadow: .5px .5px #222222;
+    font-size: 40px;
+    border-radius: 5px;
+}
+
+#projectsPara {
+    background-color: transparent;
+    color: white;
+    line-height: 50px;
+    float: right;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: 60px;
+    height: auto;
+    width: 70%;
+    text-align: left;
+    font-size: 28px;
+}
+
+/*******************************/
+/* Start of Contact Me Section */
+.pageThreeContainer {
+    height: 100%;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#contactMeHeader {
+    background-color: #222222;
+    color: aquamarine;
+    float: right;
+    height: auto;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 100px;
+    padding-right: 15px;
+    text-align: right;
+    text-shadow: .5px .5px white;
+    font-size: 40px;
+    border-radius: 5px;
+}
+
+#contactMePara {
+    background-color: transparent;
+    color: #222222;
+    float: right;
+    margin-right: 15px;
+    margin-top: 60px;
+    height: auto;
+    width: 70%;
+    text-align: left;
+    line-height: 50px;
+    font-size: 28px;
+}
+
+#facebookLink {
+    background-color: #222222;
+    color: aquamarine;
+    height: 35px;
+    width: 70%;
+    margin-right: 20px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    float: right;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#linkedInLink {
+    background-color: #222222;
+    color: aquamarine;
+    height: 35px;
+    width: 70%;
+    margin-right: 20px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    float: right;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contactInfoStyle {
+    background-color: #222222;
+    color: white;
+    height: 35px;
+    width: 70%;
+    margin-right: 20px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    float: right;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+/* Footer, Need I say more? */
+footer {
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    height: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+/* Parallax scrolling effect */
+.parallax {
+    /* The image used */
+    background-image: url("Images/MeB&W.jpg");
+    
+    /* Set a specific height and margin */
+    min-height: 700px; 
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    z-index: 4;
+}
+
+
+.boxShadowContainer {
+    -webkit-box-shadow: inset 0px 0px 78px 0px #222222;
+    -moz-box-shadow: inset 0px 0px 78px 0px #222222;
+    box-shadow: inset 0px 0px 100px 40px #222222;
+    
+    height: 700px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: block;
+    
+    z-index: 5;
+}
+
+/***************************/
+/* Make Website Responsive */
+@media screen and (max-width: 414px){
+    
+    body {
+        height: 1000px;
+        width: 100%;
+    }
+    
+    .topContainer {
+        height: 50px;
+        width: 100%;
+        position: fixed;
+    }
+    
+    .menuButton {
+        height: 40px;
+        width: 40px;
+        position: fixed;
+        background-color: aquamarine;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+        border-radius: 5px;
+        color: white;    
+    }
+    
+    #myNav {
+        display: none;
+        height: auto;
+        width: 100%;
+    }
+    
+    #navItem1:hover, #navItem2:hover, #navItem3:hover, #navItem4:hover {
+        background-color: aquamarine;
+        color: black;
+        height: 30;
+        width: 100%;
+        border-radius: 0px;
+        text-shadow: none;
+    }
+    
+    #navItem1, #navItem2, #navItem3, #navItem4 {
+        text-decoration: none;
+        text-align: center;
+        font-size: 25px;
+        display: block;
+        height: 50px;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 10px;
+        border-radius: 0px;
+    }
+    
+    #aboutMeHeader {
+        background-color: #222222;
+        color: aquamarine;
+        display: block;
+        margin-left: 15px;
+        margin-right: 20%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    #aboutMePara {
+        line-height: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: 2%;
+        margin-top: 60px;
+        height: auto;
+        width: 95%;
+        text-align: left;
+        font-size: 20px;
+    }
+    
+    #projectsHeader {
+        color: white;
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: 20%;
+        margin-top: 40px;
+        padding-left: 15px;
+        text-align: center;
+    }
+
+    #projectsPara {
+        line-height: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: 2%;
+        margin-top: 60px;
+        height: auto;
+        width: 95%;
+        text-align: left;
+        font-size: 20px;
+    }
+    
+    #contactMeHeader {
+        display: block;
+        height: auto;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 15%;
+        margin-top: 40px;
+        padding-left: 15px;
+        text-align: center;
+    }
+
+    #contactMePara {
+        line-height: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: 2%;
+        margin-top: 60px;
+        height: auto;
+        width: 95%;
+        text-align: left;
+        font-size: 20px;
+    }
+    
+    #facebookLink {
+        height: 35px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: 15px;
+        display: block;
+        font-size: 30px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    #linkedInLink {
+        height: 35px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: 15px;
+        display: block;
+        font-size: 30px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .contactInfoStyle {
+        height: 30px;
+        width: 90%;
+        margin-right: 15px;
+        margin-left: auto;
+        padding-left: 5px;
+        padding-top: 5px;
+        display: block;
+        font-size: 20px;
+    }
+    
+    .parallax {
+        /* Set a specific height and margin */
+        min-height: auto; 
+        max-width: auto;
+        margin-left: auto;
+        margin-right: auto;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        z-index: 4;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    body {
+        height: 600px;
+        width: 100%;
+    }
+    
+    .parallax {
+        /* The image used */
+        background-image: url("Images/MeB&W.jpg");
+
+        /* Set a specific height and margin */
+        height: 1024px;
+        width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .boxShadowContainer {
+        -webkit-box-shadow: inset 0px 0px 78px 0px #222222;
+        -moz-box-shadow: inset 0px 0px 78px 0px #222222;
+        box-shadow: inset 0px 0px 100px 40px #222222;
+
+        height: 1024px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: block;
+
+        z-index: 5;
+    }
+}
