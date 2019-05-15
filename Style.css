@@ -449,7 +449,7 @@ footer {
   
     /* Set a Specific Height and Margin */
     .parallax { 
-        height: 1024px;
+        height: 800px;
         width: 40%;
         margin-left: auto;
         margin-right: auto;
