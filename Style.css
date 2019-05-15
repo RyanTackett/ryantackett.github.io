@@ -148,6 +148,11 @@ body {
     background-color: white;
 }
 
+#ContactMe {
+    height: auto;
+    width: 100%;
+}
+
 #contactMeHeader {
     background-color: #222222;
     color: aquamarine;
