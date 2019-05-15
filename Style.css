@@ -234,7 +234,7 @@ footer {
 /* Parallax scrolling effect */
 .parallax {
     /* The image used */
-    background-image: url("Images/MeB&W.jpg");
+    background-image: url("MeB&W.jpg");
     
     /* Set a specific height and margin */
     min-height: 700px; 
@@ -269,10 +269,10 @@ footer {
 
 /***************************/
 /* Make Website Responsive */
-@media screen and (max-width: 414px){
+@media screen and (max-width: 414px) and (max-height: 896px) {
     
     body {
-        height: 1000px;
+        height: 600px;
         width: 100%;
     }
     
@@ -291,7 +291,8 @@ footer {
         margin-top: 10px;
         font-size: 20px;
         border-radius: 5px;
-        color: white;    
+        color: white;
+        text-align: center;
     }
     
     #myNav {
@@ -423,53 +424,38 @@ footer {
         font-size: 20px;
     }
     
-    .parallax {
-        /* Set a specific height and margin */
-        min-height: auto; 
-        max-width: auto;
+    /* Disengage Parallax Effect for Mobile */
+    .parallax {        
+        display: block;
+        height: auto;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
+        background-attachment: scroll;
+        background-size: 100%;
 
         z-index: 4;
     }
 }
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (min-width: 416px) {
     
     body {
         height: 600px;
-        width: 100%;
+        width: auto;
     }
-    
-    .parallax {
-        /* The image used */
-        background-image: url("Images/MeB&W.jpg");
-
-        /* Set a specific height and margin */
+  
+    /* Set a Specific Height and Margin */
+    .parallax { 
         height: 1024px;
-        width: 1400px;
+        width: 40%;
         margin-left: auto;
         margin-right: auto;
+        padding: 230px;
     }
     
     .boxShadowContainer {
-        -webkit-box-shadow: inset 0px 0px 78px 0px #222222;
-        -moz-box-shadow: inset 0px 0px 78px 0px #222222;
-        box-shadow: inset 0px 0px 100px 40px #222222;
-
-        height: 1024px;
-        width: auto;
-        margin-left: auto;
-        margin-right: auto;
-
-        display: block;
-
-        z-index: 5;
+        display: none;
     }
 }
