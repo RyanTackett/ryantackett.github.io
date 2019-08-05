@@ -60,7 +60,7 @@ body {
 /*****************************/
 /* Start of About Me Section */
 .pageOneContainer {
-    height: 100%;
+    height: auto;
     width: 98%;
     margin-left: auto;
     margin-right: auto;
@@ -103,7 +103,6 @@ body {
     width: 98%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;
     background-color: #222222;
 }
 
